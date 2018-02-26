@@ -2,6 +2,7 @@
 
 // Import Statements
 var express = require('express');
+require('./database');
 var router = require('./api');
 var parser = require('body-parser');
 
